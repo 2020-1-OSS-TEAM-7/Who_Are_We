@@ -1,4 +1,4 @@
-# OOS Team Project (Sunmoon.Univ)
+# OOS Team Project (Univ.Sunmoon)
 
 # Who Are 양동재?
 ![](https://yangdongjae.github.io/assets/images/About/About-Profile-img2.png)
