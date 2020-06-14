@@ -1,7 +1,7 @@
 # OOS Team Project (Sunmoon.Univ)
 
 # Who Are 양동재?
-![](/Users/yangdongjae/HelloBlog/YangDongJae.github.io/assets/images/About/About-Profile-img2.JPG    ){:.align-left}
+![](https://yangdongjae.github.io/assets/images/About/About-Profile-img2.png)
 <br/>
 student of AI Software Engineering <br/>
 <br/>
