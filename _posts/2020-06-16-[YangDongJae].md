@@ -1,5 +1,5 @@
 ---
-   title : "[SE] 소프트웨어 공학 기본개념" 
+   title : "Wha Are 양동재?" 
 
    categories : 
        양동재
