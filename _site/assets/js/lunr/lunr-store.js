@@ -23,9 +23,9 @@ var store = [{
         "url": "http://localhost:4000/%EA%B9%80%EC%9E%AC%ED%98%84/%EA%B9%80%EC%9E%AC%ED%98%84/",
         "teaser": null
       },{
-        "title": null,
-        "excerpt":"Who Are 오성빈   ","categories": [],
-        "tags": null,
-        "url": "http://localhost:4000/2020-06-16-%EC%98%A4%EC%84%B1%EB%B9%88/",
+        "title": "Wha Are 오성빈?",
+        "excerpt":"Who Are 오성빈   ","categories": ["오성빈"],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%98%A4%EC%84%B1%EB%B9%88/%EC%98%A4%EC%84%B1%EB%B9%88/",
         "teaser": null
       }]
