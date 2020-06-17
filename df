@@ -1,0 +1,77 @@
+[33mcommit 54599fb4d093bada9b1efefed1dea3eb76ebec32[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:36:09 2020 +0900
+
+     edit dansaka junki post file categories tags
+
+[33mcommit db085f97df8b280143f326dfdbb71afc028c0854[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:33:23 2020 +0900
+
+    add post file
+
+[33mcommit d2397655cc3043ac4c54fc38025a956add98f504[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:30:15 2020 +0900
+
+    edit for categories connect
+
+[33mcommit 671588d30c36f93c08f6803c148ae85c857eeb1c[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:18:48 2020 +0900
+
+    add task for crew & edit navigation file for edit spelling
+
+[33mcommit 242002e4cb5fe01b91de2141ca387c6e3593717e[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:12:25 2020 +0900
+
+    edit config file for deleted comment line in post
+
+[33mcommit c247675ac8e904e6424497235e1ccee8ccbbcde2[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Tue Jun 16 20:06:05 2020 +0900
+
+    make blog with markdown, edit Cofig file , Navigation file for make categories
+
+[33mcommit 9c4619b9a0ee4ae3748de7d5ed470eae511e9db4[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:31:24 2020 +0900
+
+    edit main wording sunmoon Univ -> Univ.Sunmoon
+
+[33mcommit d1961aec157f4045ba5a5a045fc4b6600f4394ec[m[33m ([m[1;31morigin/introduction_YangDongJae[m[33m)[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:25:41 2020 +0900
+
+    edit photo url
+
+[33mcommit baebf5947f72967c1698aaefe5adf45a8a8149c9[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:23:26 2020 +0900
+
+    add career
+
+[33mcommit 3416d13a3b47c96e015ddd0a38894522b41753e1[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:22:00 2020 +0900
+
+    edit code for profile picture
+
+[33mcommit 9627fb375b040ac479ece85c038c76f57c7457e4[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:18:50 2020 +0900
+
+    add profile
+
+[33mcommit 70f8cf7d58be4ab2c9229fe2e406fbd364361b99[m
+Author: YangDongJae <ydj9805@me.com>
+Date:   Sun Jun 14 16:14:56 2020 +0900
+
+    add section for introduction our self
+
+[33mcommit f8f6e675589e6b56b83ad987878e6938642e7f61[m
+Author: YangDongJae <59679706+YangDongJae@users.noreply.github.com>
+Date:   Sun Jun 14 16:04:36 2020 +0900
+
+    Initial commit
