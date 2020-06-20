@@ -34,7 +34,7 @@ student of AI Software Engineering <br/>
 * Github : [https://github.com/YangDongJae](https://github.com/YangDongjae)
 * [Linkedin](https://www.linkedin.com/in/dongjae-yang-88918b175/)
 * Mail : ydj9805@gmail.com
-* blog : [](https://yangdongjae.github.io)
+* blog : [양동재블로그](https://yangdongjae.github.io)
 
 ### 경력
 
