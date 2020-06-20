@@ -17,7 +17,7 @@
 
 ---
 
-# Who Are 양동재?
+# **_Who Are 양동재?_**
 ![](https://yangdongjae.github.io/assets/images/About/About-Profile-img2.png)
 <br/>
 student of AI Software Engineering <br/>
@@ -25,11 +25,16 @@ student of AI Software Engineering <br/>
 <br/>
 <br/>
 
+### 철학
+
+> 인생은 원하는데로, 단 인생을 되돌아 봤을때 웃을수 있는 선택을 하자.
+
 ### 소개
 
 * Github : [https://github.com/YangDongJae](https://github.com/YangDongjae)
 * [Linkedin](https://www.linkedin.com/in/dongjae-yang-88918b175/)
 * Mail : ydj9805@gmail.com
+* blog : [](https://yangdongjae.github.io)
 
 ### 경력
 
