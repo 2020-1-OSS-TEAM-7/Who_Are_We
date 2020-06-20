@@ -36,6 +36,30 @@ student of AI Software Engineering <br/>
 * Mail : ydj9805@gmail.com
 * blog : [양동재블로그](https://yangdongjae.github.io)
 
+### California Housing Data Machine Learning
+
+* Path설정을 통해 온라인으로 dataset 다운로드
+
+```
+import os
+import tarfile
+from six.moves import urllib
+
+DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
+HOUSING_PATH = os.path.join("datasets","housing")
+HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
+
+def fetch_housing_data(housing_url=HOUSING_URL, housing_path = HOUSING_PATH):
+    if not os.path.isdir(housing_path):
+        os.makedirs(housing_path)
+    tgz_path = os.path.join(housing_path, "housing.tgz")
+    urllib.request.urlretrieve(housing_url, tgz_path)
+    housing_tgz = tarfile.open(tgz_path)
+    housing_tgz.extractall(path = housing_path)
+    housing_tgz.close()
+```
+
+
 ### 경력
 
 |  | 기간  | 담당업무 |
