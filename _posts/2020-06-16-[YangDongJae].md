@@ -40,7 +40,7 @@ student of AI Software Engineering <br/>
 
 * Path설정을 통해 온라인으로 dataset 다운로드
 
-```
+```python
 import os
 import tarfile
 from six.moves import urllib
