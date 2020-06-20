@@ -12,6 +12,10 @@ main:
     url: https://2020-1-oss-team-7.github.io/Who_Are_We/categories/KJH
   - title: "Home"
     url: https://2020-1-oss-team-7.github.io/Who_Are_We/
+- title: "tags"
+  url: https://2020-1-oss-team-7.github.io/Who_Are_We/tags
+- title: "categories"
+  url: https://2020-1-oss-team-7.github.io/Who_Are_We/categories
 
 
     
