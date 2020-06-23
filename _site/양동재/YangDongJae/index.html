@@ -145,6 +145,10 @@
               <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/categories/KJH">김재현</a>
             </li><li class="masthead__menu-item">
               <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/tags">tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/categories">categories</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -319,7 +323,9 @@
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
               <ul class="toc__menu">
   <li><a href="#who-are-양동재">Who Are 양동재?</a>
+      - {:.} <a href="#철학">철학</a>
       - {:.} <a href="#소개">소개</a>
+      - {:.} <a href="#california-housing-data-machine-learning">California Housing Data Machine Learning</a>
       - {:.} <a href="#경력">경력</a>
       - {:.} <a href="#대외활동">대외활동</a></li>
 </ul>
@@ -327,7 +333,7 @@
             </nav>
           </aside>
         
-        <h1 id="who-are-양동재">Who Are 양동재?</h1>
+        <h1 id="who-are-양동재"><strong><em>Who Are 양동재?</em></strong></h1>
 <p><img src="https://yangdongjae.github.io/assets/images/About/About-Profile-img2.png" alt="" />
 <br />
 student of AI Software Engineering <br />
@@ -335,13 +341,44 @@ student of AI Software Engineering <br />
 <br />
 <br /></p>
 
+<h3 id="철학">철학</h3>
+
+<blockquote>
+  <p>인생은 원하는 데로, 단 인생을 되돌아봤을 때 <strong>누구보다 행복하게 웃을 것</strong></p>
+</blockquote>
+
 <h3 id="소개">소개</h3>
 
 <ul>
   <li>Github : <a href="https://github.com/YangDongjae">https://github.com/YangDongJae</a></li>
   <li><a href="https://www.linkedin.com/in/dongjae-yang-88918b175/">Linkedin</a></li>
   <li>Mail : ydj9805@gmail.com</li>
+  <li>blog : <a href="https://yangdongjae.github.io">양동재블로그</a></li>
 </ul>
+
+<h3 id="california-housing-data-machine-learning">California Housing Data Machine Learning</h3>
+
+<ul>
+  <li>Path설정을 통해 온라인으로 dataset 다운로드</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">tarfile</span>
+<span class="kn">from</span> <span class="nn">six.moves</span> <span class="kn">import</span> <span class="n">urllib</span>
+
+<span class="n">DOWNLOAD_ROOT</span> <span class="o">=</span> <span class="s">"https://raw.githubusercontent.com/ageron/handson-ml/master/"</span>
+<span class="n">HOUSING_PATH</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s">"datasets"</span><span class="p">,</span><span class="s">"housing"</span><span class="p">)</span>
+<span class="n">HOUSING_URL</span> <span class="o">=</span> <span class="n">DOWNLOAD_ROOT</span> <span class="o">+</span> <span class="s">"datasets/housing/housing.tgz"</span>
+
+<span class="k">def</span> <span class="nf">fetch_housing_data</span><span class="p">(</span><span class="n">housing_url</span><span class="o">=</span><span class="n">HOUSING_URL</span><span class="p">,</span> <span class="n">housing_path</span> <span class="o">=</span> <span class="n">HOUSING_PATH</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">housing_path</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">housing_path</span><span class="p">)</span>
+    <span class="n">tgz_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">housing_path</span><span class="p">,</span> <span class="s">"housing.tgz"</span><span class="p">)</span>
+    <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">housing_url</span><span class="p">,</span> <span class="n">tgz_path</span><span class="p">)</span>
+    <span class="n">housing_tgz</span> <span class="o">=</span> <span class="n">tarfile</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="n">tgz_path</span><span class="p">)</span>
+    <span class="n">housing_tgz</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">path</span> <span class="o">=</span> <span class="n">housing_path</span><span class="p">)</span>
+    <span class="n">housing_tgz</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
 
 <h3 id="경력">경력</h3>
 
@@ -467,7 +504,7 @@ student of AI Software Engineering <br />
       
   <nav class="pagination">
     
-      <a href="/dansaka/junki/Dansaka-Junki/" class="pagination--pager" title="Wha Are Dansaka Junki?
+      <a href="/LeeJooYeol/" class="pagination--pager" title="[leejooyeol]
 ">Previous</a>
     
     
@@ -486,6 +523,43 @@ student of AI Software Engineering <br />
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EB%B0%B1%EB%82%A8%EA%B7%9C/%EB%B0%B1%EB%82%A8%EA%B7%9C/" rel="permalink">Wha Are 백남규?
+</a>
+      
+    </h2>
+    <!--
+    devinlife comments :
+        아키이브 싱글 페이지(ex. 카테고리)에 각 포스트 제목 밑에 Updated 시간 표기
+        기존에는 read_time이 표기. read_time -> date 변경
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    -->
+    
+      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 17 2020</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Who Are 백남규
+</p>
+  </article>
+</div>
+
         
           
 
@@ -593,43 +667,6 @@ student of AI Software Engineering <br />
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 16 2020</p>
     
     <p class="archive__item-excerpt" itemprop="description">Who Are 구경현
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/dansaka/junki/Dansaka-Junki/" rel="permalink">Wha Are Dansaka Junki?
-</a>
-      
-    </h2>
-    <!--
-    devinlife comments :
-        아키이브 싱글 페이지(ex. 카테고리)에 각 포스트 제목 밑에 Updated 시간 표기
-        기존에는 read_time이 표기. read_time -> date 변경
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-
-</p>
-    
-    -->
-    
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> June 16 2020</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Who Are Dansaka Junki?
 </p>
   </article>
 </div>

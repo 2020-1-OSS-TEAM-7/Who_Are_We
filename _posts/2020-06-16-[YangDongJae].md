@@ -17,7 +17,7 @@
 
 ---
 
-# Who Are 양동재?
+# **_Who Are 양동재?_**
 ![](https://yangdongjae.github.io/assets/images/About/About-Profile-img2.png)
 <br/>
 student of AI Software Engineering <br/>
@@ -25,11 +25,40 @@ student of AI Software Engineering <br/>
 <br/>
 <br/>
 
+### 철학
+
+> 인생은 원하는 데로, 단 인생을 되돌아봤을 때 **누구보다 행복하게 웃을 것**
+
 ### 소개
 
 * Github : [https://github.com/YangDongJae](https://github.com/YangDongjae)
 * [Linkedin](https://www.linkedin.com/in/dongjae-yang-88918b175/)
 * Mail : ydj9805@gmail.com
+* blog : [양동재블로그](https://yangdongjae.github.io)
+
+### California Housing Data Machine Learning
+
+* Path설정을 통해 온라인으로 dataset 다운로드
+
+```python
+import os
+import tarfile
+from six.moves import urllib
+
+DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
+HOUSING_PATH = os.path.join("datasets","housing")
+HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
+
+def fetch_housing_data(housing_url=HOUSING_URL, housing_path = HOUSING_PATH):
+    if not os.path.isdir(housing_path):
+        os.makedirs(housing_path)
+    tgz_path = os.path.join(housing_path, "housing.tgz")
+    urllib.request.urlretrieve(housing_url, tgz_path)
+    housing_tgz = tarfile.open(tgz_path)
+    housing_tgz.extractall(path = housing_path)
+    housing_tgz.close()
+```
+
 
 ### 경력
 
