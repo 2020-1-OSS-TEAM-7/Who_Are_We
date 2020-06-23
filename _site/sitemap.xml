@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/dansaka/junki/Dansaka-Junki/</loc>
+<loc>http://localhost:4000/junki/Dansaka-Junki/</loc>
+<lastmod>2020-06-16T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/LeeJooYeol/</loc>
 <lastmod>2020-06-16T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -21,13 +25,23 @@
 <lastmod>2020-06-16T00:00:00+09:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/%EB%B0%B1%EB%82%A8%EA%B7%9C/%EB%B0%B1%EB%82%A8%EA%B7%9C/</loc>
+<lastmod>2020-06-17T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/categories/YangDongJae</loc>
 </url>
 <url>
 <loc>http://localhost:4000/YangDongJae/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/categories/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/KKH</loc>
@@ -39,11 +53,14 @@
 <loc>http://localhost:4000/categories/OSB</loc>
 </url>
 <url>
+<loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/googledd9ec24ab2030c79.html</loc>
-<lastmod>2020-05-04T21:44:05+09:00</lastmod>
+<lastmod>2020-06-17T19:19:50+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/naver3be83c2412a5862291c1d5cbdb28f67a.html</loc>
-<lastmod>2020-04-02T19:39:57+09:00</lastmod>
+<lastmod>2020-06-17T19:19:50+09:00</lastmod>
 </url>
 </urlset>
