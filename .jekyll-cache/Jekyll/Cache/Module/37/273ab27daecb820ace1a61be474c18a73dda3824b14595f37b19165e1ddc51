@@ -1,4 +1,4 @@
-I".!
+I"H"
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -23,6 +23,10 @@
               <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/categories/KJH">김재현</a>
             </li><li class="masthead__menu-item">
               <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/tags">tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://2020-1-oss-team-7.github.io/Who_Are_We/categories">categories</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
