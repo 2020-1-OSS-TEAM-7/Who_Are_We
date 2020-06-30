@@ -1,8 +1,8 @@
 ---
    title : "Wha Are Dansaka Junki?" 
 
-   categories : 
-        Junki
+   categories : junki
+        
    
    description : " Dansaka Junki는 누구인가?"
 
