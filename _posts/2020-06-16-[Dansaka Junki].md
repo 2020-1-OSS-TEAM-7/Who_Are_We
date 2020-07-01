@@ -2,7 +2,7 @@
    title : "Who Are DANSAKA JUNKI?" 
 
    categories : 
-       DANSAKA JUNKI
+       junki
    
    description : "DANSAKA JUNKI는 누구인가?"
 
