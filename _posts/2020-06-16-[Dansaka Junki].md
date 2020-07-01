@@ -1,6 +1,5 @@
 ---
    title : "Who Are DANSAKA JUNKI?" 
-
    categories : 
        junki
    
